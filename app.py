@@ -4,6 +4,7 @@ import pandas as pd
 from surprise import Reader, Dataset
 from surprise import SVDpp
 from collections import defaultdict
+import numpy as np
 
 app = Flask(__name__)
 CORS(app)
